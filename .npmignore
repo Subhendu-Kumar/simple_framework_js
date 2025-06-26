@@ -1,0 +1,15 @@
+# Ignore source files not needed in npm package
+src/
+test/
+*.test.js
+*.spec.js
+
+# Ignore config/dev-only files
+.env
+.vscode/
+node_modules/
+.DS_Store
+
+# Ignore build tools or local scripts
+scripts/
+webpack.config.js
