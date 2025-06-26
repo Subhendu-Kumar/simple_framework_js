@@ -20,9 +20,10 @@
     "restful",
     "api"
   ],
+  "readme": "README.md",
   "files": [
     "LICENSE",
-    "Readme.md",
+    "README.md",
     "index.js",
     "lib/"
   ],
