@@ -18,7 +18,6 @@ declare module "simple_framework_js" {
 
   export interface Request extends IncomingMessage {
     path: string;
-    query: ParsedUrlQuery;
     params: RouteParams;
     body: any;
     query(sql: string, params?: any[]): Promise<any>;
