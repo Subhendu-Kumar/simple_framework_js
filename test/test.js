@@ -1,5 +1,6 @@
 // Example usage:
 import { SimpleFramework } from "../index.js";
+// import { SimpleFramework } from "simple_framework_js";
 
 const app = new SimpleFramework();
 

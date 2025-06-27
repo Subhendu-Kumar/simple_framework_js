@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,12 @@
     "api"
   ],
   "readme": "README.md",
+  "types": "index.d.ts",
   "files": [
     "LICENSE",
     "README.md",
     "index.js",
+    "index.d.ts",
     "lib/"
   ],
   "engines": {
@@ -32,5 +35,8 @@
   },
   "dependencies": {
     "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4"
   }
 }
